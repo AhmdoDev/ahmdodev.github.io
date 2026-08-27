@@ -137,7 +137,7 @@
     if (email) {
       btn.href = `mailto:${email}`;
     } else {
-      btn.href = "https://github.com/" + (SITE.githubUsername || "ahmdo");
+      btn.href = "https://github.com/" + (SITE.githubUsername || "AhmdoDev");
       btn.setAttribute("target", "_blank");
       btn.setAttribute("rel", "noopener");
       btn.title = "Email not public yet — reach out on GitHub or LinkedIn";
@@ -148,7 +148,7 @@
   const termBody = document.getElementById("terminalBody");
   const termLines = [
     { type: "cmd", text: "whoami" },
-    { type: "out", text: "ahmdo" },
+    { type: "out", text: "ahmdodev" },
     { type: "cmd", text: "interests" },
     { type: "out", text: "software · artificial intelligence · automation · systems · entrepreneurship" },
     { type: "cmd", text: "status" },
@@ -164,7 +164,7 @@
       if (i >= termLines.length) {
         const hint = document.createElement("p");
         hint.className = "terminal-hint mono";
-        hint.textContent = "psst — try typing “sudo ahmdo” anywhere on this page.";
+        hint.textContent = "psst — try typing “sudo ahmdodev” anywhere on this page.";
         termBody.appendChild(hint);
         return;
       }
@@ -221,9 +221,9 @@
   const terminalEl = document.getElementById("terminal");
   if (terminalEl) termObserver.observe(terminalEl);
 
-  /* ---------- Easter egg: type "sudo ahmdo" anywhere ---------- */
+  /* ---------- Easter egg: type "sudo ahmdodev" anywhere ---------- */
   let buffer = "";
-  const secret = "sudo ahmdo";
+  const secret = "sudo ahmdodev";
   window.addEventListener("keydown", (e) => {
     if (e.key.length !== 1) return;
     buffer = (buffer + e.key).slice(-secret.length).toLowerCase();
@@ -263,10 +263,10 @@
           <span style="width:8px;height:8px;border-radius:50%;background:#ff5f56;display:inline-block;"></span>
           <span style="width:8px;height:8px;border-radius:50%;background:#ffbd2e;display:inline-block;"></span>
           <span style="width:8px;height:8px;border-radius:50%;background:#27c93f;display:inline-block;"></span>
-          <span style="margin-left:8px;">root@ahmdo</span>
+          <span style="margin-left:8px;">root@ahmdodev</span>
         </div>
         <div style="padding:22px 20px; color:#a9e6a1; font-size:0.86rem; line-height:1.9;">
-          <p><span style="color:#5B8CFF;">$</span> sudo ahmdo</p>
+          <p><span style="color:#5B8CFF;">$</span> sudo ahmdodev</p>
           <p style="color:#9a9ca6;">[sudo] permission granted: you found it.</p>
           <p style="color:#9a9ca6;">access level: curious developer</p>
           <p style="color:#9a9ca6;">no admin rights included. just a hello 👋</p>
