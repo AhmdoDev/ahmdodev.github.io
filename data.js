@@ -4,7 +4,7 @@
 // ---------------------------------------------------------------
 
 const SITE = {
-  githubUsername: "ahmdo",
+  githubUsername: "ahmdodev",
   // Set to a real address when ready. Leave null to hide the email button
   // and fall back to GitHub/LinkedIn only.
   email: null, // e.g. "hello@ahmdo.dev"
