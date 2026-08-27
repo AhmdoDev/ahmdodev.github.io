@@ -13,7 +13,7 @@ const SITE = {
 const projects = [
   {
     title: "AI Date Quality Detection",
-    status: "CONCEPT",
+    status: "CREATED",
     description:
       "Exploring how computer vision and machine learning could help classify the quality of locally grown rutab dates, using a community-contributed dataset.",
     technologies: ["Computer Vision", "Machine Learning", "JavaScript", "Node.js"],
@@ -23,7 +23,7 @@ const projects = [
   },
   {
     title: "Plant Insect Detection",
-    status: "CONCEPT",
+    status: "WORKING ON",
     description:
       "Exploring whether the tiny vibrations and sounds produced by insects feeding on plants can be captured and analyzed to identify pest activity early.",
     technologies: ["Sensors", "Signal Processing", "Machine Learning", "IoT"],
@@ -43,7 +43,7 @@ const projects = [
   },
   {
     title: "Codrew",
-    status: "CONCEPT",
+    status: "WORKING ON",
     description:
       "Exploring better ways for developers to collaborate, build together, and turn ideas into working software.",
     technologies: ["Product Design", "Collaboration", "Web"],
@@ -77,7 +77,7 @@ const experiments = [
 ];
 
 const stack = {
-  Languages: ["Python", "JavaScript", "HTML", "CSS"],
+  Languages: ["Golang", "Python", "JavaScript", "HTML", "CSS"],
   Development: ["Node.js", "Git", "GitHub", "VS Code"],
   "AI / Data": ["Machine Learning", "Computer Vision", "AI APIs", "Dataset Development"],
   Systems: ["APIs", "Webhooks", "Servers", "Networking", "Automation"],
